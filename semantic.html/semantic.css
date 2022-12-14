@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding: 40px;
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+nav {
+  background-color: hsla(220, 57%, 55%, 0.705);
+  background-color: rgba(62, 180, 16, 0.801);
+  padding: 20px;
+  font-size: 20px;
+}
+nav a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+
+
+h2 {
+  margin: 20px;
+}
+figcaption {
+  margin-bottom: 30px;
+}
+footer {
+  background: black;
+  padding: 20px;
+  color: white;
+}
