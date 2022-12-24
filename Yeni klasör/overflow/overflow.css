@@ -1,0 +1,17 @@
+.box{
+    border: 2px solid red;
+    margin-bottom: 2rem;
+    width: 25rem;
+    height: 20rem;
+}
+.box1{
+    background-color: antiquewhite;
+    overflow: visible;
+}
+.box2{
+    overflow: hidden;
+}.box3{
+    overflow: scroll;
+}.box4{
+    overflow: auto;
+}

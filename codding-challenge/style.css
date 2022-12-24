@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:700px;
+    margin: auto;
+    padding: 10px;
+   
+}
+.container{
+     border: 10px solid blue;
+     
+     
+}
+.right{
+    border: 10px solid red;
+    width: 100px;
+    margin: auto;
+    margin-bottom: ;
+}
+.left{
+    border: 10px solid rgb(0, 255, 136);
+    width: fit-content;
+    /* margin-left: 10rem; */
+    margin-top: 10rem;
+   
+}
+h1{
+   width: 200px;
+    display: inline-block;
+    
+    
+    
+}
+p{
+    width: 600px;
+    display: inline-block;
+    margin-bottom: 35px;
+    font-size: 1rem;
+    text-align: right;
+    
+
+}
+img{
+    width: 10rem;
+}
+

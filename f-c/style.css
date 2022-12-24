@@ -1,0 +1,28 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/* .left-container{
+    width: 20rem;
+} */
+.b{
+    width: 5rem;
+    height: 5rem ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box{
+    background-color: black;
+    border: 2px solid red;
+    float: left;
+    margin-right: 1rem;
+}
+.clearfix{
+    clear: both;
+}
+.box1{ 
+    background-color: rgb(243, 169, 11);
+    border: 2px solid rgb(230, 11, 11);
+    margin-left: 1rem;
+    float: right;
+}

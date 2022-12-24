@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    border: 2px solid red;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 4rem;
+
+}
+.img-float{
+    width: 20% ;
+    float: left;
+    margin-right: 0.5rem;
+}
+.par1{
+    border: 2px solid red;
+}
+.clearfix{
+    clear: both;
+}
+
+.box{
+    float: left;
+    font-size: 2rem;
+}
+.box1{
+    background-color: rgb(155, 127, 255);
+   width: 50%;
+}
+.box2{
+    background-color: rgb(255, 136, 127);
+    width: 20%;
+}
+ 
+.box3{
+    background-color: rgb(127, 255, 127);
+    width: 10%;
+    
+}
