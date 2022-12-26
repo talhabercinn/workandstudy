@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* ////////header/ */
+body {
+  font-family: "DynaPuff", cursive;
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  padding: 1rem;
+  background-color: #FFDEE9;
+  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+  
+}
+header a img {
+  width: 120px;
+}
+header .sign-in {
+  float: right;
+  color: #040404;
+  padding-top: 3rem;
+}
+header .sign-in a {
+  color: #060606;
+  text-decoration: none;
+  font-weight: 700;
+
+}
+header .sign-in a:hover{
+    text-decoration: underline;
+    border-bottom: 2px solid #920101;
+}
+/* ///nav-sticky/////// */
+nav.sticky{
+    position: sticky;
+    top: 0rem;
+    padding: 2rem;
+    text-align: center;    
+    background-color: #e04444c4;
+z-index: 1;
+}
+nav.sticky a{
+    color:black;
+    font-family: "DynaPuff", cursive;
+    text-decoration: none;
+    margin-right: 0.8rem;
+    letter-spacing: 1px;
+}
+nav.sticky a:hover{
+    color: white;
+}
+/* nav banner */
+nav.banner{
+    position: relative;
+
+}
+nav.banner img{
+    width: 100%;
+    max-height: calc(100vh - 207px);
+}
+nav.banner .hero{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+   
+}
+nav.banner .hero h2{
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    text-shadow: 4px 4px 4px blueviolet;
+}
+nav.banner .hero h3{
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(245, 240, 240);
+    text-shadow: 4px 4px 4px blueviolet;
+}
+nav.banner button{
+    padding: 0.7rem;
+    border: none;
+    border-radius: 10px;
+    background-color:#e04444c4 ;
+    font-weight: 700;
+    color: white;
+}
+nav.banner button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+/* //////main////// */
+main{
+    padding: 2rem;
+    text-align: justify;
+}
+/* //////slack-icon/////// */
+.button{
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    font-size: 2rem;
+    background-color: #2EE462;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 25%;
+    padding-top: 0.16rem;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+}
+.button:hover{
+    cursor:pointer ;
+    outline: 5px ridge rgb(15, 204, 21);
+    outline-offset: 3px;
+    color: black;
+ 
+}
+.button span {
+  
+    cursor: pointer;
+  
+    display: inline-block;
+  
+    position: relative;
+  
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+  
+    /* content: '\00bb'; */
+  
+    position: absolute;
+  
+    opacity: 0;
+  
+    top: 0;
+  
+    right: -20px;
+  
+    transition: 0.5s;
+  }
+  /* .button:hover span {
+  
+    padding-right: 25px;
+    color: black;
+    font-size: 25px;
+    
+  }
+  
+  .button:hover span:after {
+  
+    opacity: 1;
+  
+    right: 0;
+  } */
